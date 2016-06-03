@@ -1,0 +1,7 @@
+fact n = if n <= 0 then 1 else n * factorial (n - 1)
+
+
+
+fact :: Int -> Int
+fact n | n <= 0 = 1
+       | n = n * factorial (n - 1)
